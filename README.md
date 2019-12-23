@@ -10,4 +10,4 @@ Navigate to the folder in the terminal, and type
 
 pip install pygame
 
-python MazeSetUpCode.py
+python MazeSetupCode.py
