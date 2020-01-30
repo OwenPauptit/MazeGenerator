@@ -37,15 +37,15 @@ def drawFinish(grid,screen):
 def win(width,height,screen,grid,showPcnt,showMaze):
 
     if width <= height:
-        tinyFont = pygame.font.Font("C:/Users/owenp/PycharmProjects/MazeGenerator/8-BIT WONDER.TTF", int(width / 20))
-        smallFont = pygame.font.Font("C:/Users/owenp/PycharmProjects/MazeGenerator/8-BIT WONDER.TTF", int(width / 15))
-        bigFont = pygame.font.Font("C:/Users/owenp/PycharmProjects/MazeGenerator/8-BIT WONDER.TTF", int(width / 8))
+        tinyFont = pygame.font.Font("8-BIT WONDER.TTF", int(width / 20))
+        smallFont = pygame.font.Font("8-BIT WONDER.TTF", int(width / 15))
+        bigFont = pygame.font.Font("8-BIT WONDER.TTF", int(width / 8))
         xpadding = int(width/15)
         ypadding = int(width/40)
     else:
-        tinyFont = pygame.font.Font("C:/Users/owenp/PycharmProjects/MazeGenerator/8-BIT WONDER.TTF", int(height / 20))
-        smallFont = pygame.font.Font("C:/Users/owenp/PycharmProjects/MazeGenerator/8-BIT WONDER.TTF", int(height / 15))
-        bigFont = pygame.font.Font("C:/Users/owenp/PycharmProjects/MazeGenerator/8-BIT WONDER.TTF", int(height / 8))
+        tinyFont = pygame.font.Font("8-BIT WONDER.TTF", int(height / 20))
+        smallFont = pygame.font.Font("8-BIT WONDER.TTF", int(height / 15))
+        bigFont = pygame.font.Font("8-BIT WONDER.TTF", int(height / 8))
         xpadding = int(height/5)
         ypadding = int(height/25)
 
