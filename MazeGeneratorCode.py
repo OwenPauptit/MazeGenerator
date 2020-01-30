@@ -109,8 +109,8 @@ def setup():
 ########################################################################################################################
 
 def displayPcnt(counter,grid,screen):
-    bitwonder = pygame.font.Font("C:/Users/owenp/PycharmProjects/MazeGenerator/8-BIT WONDER.TTF",54)
-    digital = pygame.font.Font("C:/Users/owenp/PycharmProjects/MazeGenerator/digital-7.ttf",45)
+    bitwonder = pygame.font.Font("8-BIT WONDER.TTF",54)
+    digital = pygame.font.Font("digital-7.ttf",45)
     loading = bitwonder.render("Loading",1,Colours.black)
     loadpos = loading.get_rect()
     loadpos.center = (200,170)
